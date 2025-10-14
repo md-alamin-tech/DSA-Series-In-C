@@ -13,9 +13,9 @@ int linSearch(int arr[],int target, int size){
 
 int main(){
     int arr[] = {10, 8, 6, 02, 5, 6, 4};
-    int target = 20;
+    int target = 10;
     int size = sizeof(arr) / sizeof(arr[4]);
 
     cout << linSearch(arr, target, size) << endl;
     return 0;
-}
+} 
