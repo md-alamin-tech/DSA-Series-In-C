@@ -1,4 +1,1 @@
-
-    cout << maxWater;
-
-    return 0;
+ans[i] = product;
