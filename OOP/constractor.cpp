@@ -42,8 +42,8 @@ int main(){
     Teacher t1("John", "Computer Science", "C++");
     // t1.getInfo();
 
-    Teacher t2(t1);
-    // t2.getInfo(); //default copy constructor -invoke
+    Teacher t2(t1);//custom  copy constructor -invoke
+    // t2.getInfo(); 
     t2.getInfo();
 
     // cout << t1.dept;
