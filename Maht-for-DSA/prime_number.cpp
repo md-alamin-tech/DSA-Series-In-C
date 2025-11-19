@@ -2,9 +2,9 @@
 using namespace std;
 
 string isPrime(int n){
-    for (int i = 2; i < n; i++)
+    for (int i = 2; i*i <= n; i++)
     {
-        if (n%2 == 0)
+        if (n % i == 0)
         {
             return "Non Prime";
         }
@@ -13,9 +13,8 @@ string isPrime(int n){
     return "Prime";
 }
 int main(){
-    int n = 10;
+    int n = 4;
     cout<<isPrime(n)<<endl;
-
 
     return 0;
 }
