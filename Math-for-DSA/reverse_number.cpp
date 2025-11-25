@@ -3,7 +3,7 @@
 using namespace std;
 
 int reversInt(int n){
-    long long revNum = 0;
+    int revNum = 0;
 
     while(n != 0){
         int dig = n % 10;

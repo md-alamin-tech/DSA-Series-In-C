@@ -9,7 +9,6 @@ int gcd(int a, int b){
             b = b % a;
         }
     }
-
     if(a==0) return b;
     return a;
 }
