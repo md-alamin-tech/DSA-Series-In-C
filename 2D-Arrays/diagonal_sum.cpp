@@ -16,8 +16,8 @@ int diagonalSum(int arr[][4], int n){
     return sum;
 }
 int main(){
-    int arr[4][4] = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
-    int n = 4;
+    int arr[5][5] = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16},{17,18,19,20}};
+    int n = 5;
     cout<<diagonalSum(arr,n);
     return 0;
 }
