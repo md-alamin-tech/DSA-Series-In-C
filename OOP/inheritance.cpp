@@ -2,12 +2,12 @@
 #include<string>
 using namespace std;
 
-class person{
+class Person{
 public:
     string name;
     double id;
 
-    person(string name, double id){
+    Person(string name, double id){
         this->name = name;
         this->id = id;
     }
@@ -17,10 +17,10 @@ public:
     // }
 };
 
-class student :public person{
+class student :public Person{
 public:
     int roll;
-    student(string name, double id, int roll): person(name, id){
+    student(string name, double id, int roll): Person(name, id){
         this->roll = roll;
     }
 
