@@ -7,8 +7,16 @@ int main(){
     int rows = 4;
     int cols = 3;
 
-    matrix[2][1] = 18;
     cout << matrix[2][1] << endl;
 
-    return 0;
+    for (int i = 0; i < rows; i++)
+    {
+        for (int j = 0; j < cols; j++){
+            cout << matrix[i][j] << "  " ;
+        }
+        cout << endl;
+    }
+
+    
+        return 0;
 }
